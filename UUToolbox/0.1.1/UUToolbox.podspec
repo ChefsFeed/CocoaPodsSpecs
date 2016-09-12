@@ -18,18 +18,11 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/ChefsFeed/toolbox"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Fabrice Armisen" => "farmisen@g mail.com" }
+  s.author           = { "Peter O'Leary" => "pete@timelight.com" }
   s.source           = { :git => "https://github.com/ChefsFeed/toolbox.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/*'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AWSiOSSDK', '~> 1.7'
 end
