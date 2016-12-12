@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author           = { "Peter O'Leary" => "pete@timelight.com" }
   s.source           = { :git => "https://github.com/ChefsFeed/toolbox.git", :tag => s.version.to_s }
 
-  s.platform     = {:ios, "7.0", :tvos => "9.0"}
+  s.platform     = {:ios => "7.0", :tvos => "9.0"}
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/*'
